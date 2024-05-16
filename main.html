@@ -1,0 +1,177 @@
+<html> 
+<head>
+<style>
+.menu{
+	max-width:;
+	height:80px;
+	background-color:blue;
+	}
+.menu1{
+	max-width:;
+	height:200px;
+	background-color:white;
+    }
+#img{
+    background-color:white;
+ 	height:150px;
+	width:50%;
+	text-align:center;
+	}
+#logo{font-family:Algerian;
+	text-align:left;
+	font-size:20px;
+	color:white;
+	}
+#myInput {
+   width: 500px; 
+   height:40px;
+}
+#row{text-align:center;
+	width:100%;
+	}
+.scroll-images {
+  white-space: nowrap;
+  height:250px;
+}
+
+.scroll-images img {
+  display: inline-block;
+  height:250px;
+  margin-right: 10px;
+  width:100%;
+}
+.image-border {
+  border: 2px solid black;
+}
+.buy-now-btn,
+.add-to-cart-btn {
+  background-color: #3498db;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.buy-now-btn:hover,
+.add-to-cart-btn:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+#image-container {
+        width: 100%;
+        overflow: hidden;
+      }
+      .image {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        margin-right: 20px;
+        animation-name: scroll;
+        animation-duration: 20s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+      @keyframes scroll {
+        0% {
+          transform: translateX(0);
+		  }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+</style>
+<script>
+function addToCart() {
+  const itemName = "Item"; 
+  const cartNotification = document.getElementById("cart-notification");
+  cartNotification.textContent = `${itemName} added to cart!`;
+  cartNotification.style.color = "green";
+  cartNotification.style.display = "block";
+}
+const addButton = document.getElementById("add-to-cart-button");
+addButton.addEventListener("click",addToCart,true);
+</script>
+</head>
+<title>ANY TRADE</title>
+<body>
+<div class="menu">
+<table width="100%" >
+<tr>
+<td id="logo">ANY TRADE</td>
+<td>
+<div class="search-container">
+  <form action="/search">
+    <input id="myinput" type="text" placeholder="Search for product/brand">
+    <button type="submit"><img src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\search.png" width="30px" height="30px" alt="Button Image"></button>
+  </form>
+</div>
+</td>
+<th><a href="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\login.html"><font color="white">Login</font></a></th>
+<th><a href="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\yourorders.html"><font color="white">Your orders</font></a><img src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\cart (1).jpg" width="30px" height="30px"/> </td></th>
+</tr>
+</table>
+</div>
+<div class="menu1">
+<table width="100%">
+<tr id="row">
+<marquee>
+<td><img id="img" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\gocery.jpg"></td>
+<td><img id="img" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\mobile.png"></td>
+<td><img id="img" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\fashion.png"></td>
+<td><img id="img" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\Electronics.png"></td>
+<td><img id="img" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\home.png"></td>
+<td><img id="img" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\appliences.png"></td>
+</marquee>
+</tr>
+<tr id="row">
+<td><a href="Grocery.html">Grocery</a></td>
+<td><a href="Mobiles.html">Mobiles</a></td>
+<td><a href="Fashion.html">Fashion</a></td>
+<td><a href="Electronics.html">Electronics</a> </td>
+<td><a href="Home.html">Home</a></td>
+<td><a href="Appliances.html">Appliances</a></td>
+</tr>
+</table>
+</div>
+<div id="image-container" class="scroll-images">
+  <img class="image" width="100%" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\offer1.png" alt="Image 1">
+  <img class="image" width="100%" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\offer2.png" alt="Image 2">
+  <img class="image" width="100%" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\offer3.png" alt="Image 3">
+  <img class="image" width="100%" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\offer4.png" alt="Image 4">
+  <img class="image" width="100%" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\offers5.png" alt="Image 5">
+</div>
+<div> 
+<center><h1><b>Today's top selling</b></h1></center>
+<table width=100%>
+<tr>
+<td><img class="image-border" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\appliencesp1.png" width="300px" height="300px"></td>
+<td><img class="image-border" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\appliencesp2.png" width="300px" height="300px"></td>
+<td><img class="image-border" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\Electronicsp1.png" width="300px" height="300px"></td>
+</tr>
+<tr> 
+<td><h3>Samsung TV</h3></td>
+<td><h3>LC washing machine</h3></td>
+<td><h3>Razer 18 laptop</h3></td>
+</tr>
+<tr>
+<td><b>PRICE:9,999</b><sub><strike>11,999</strike></sub></td>
+<td><b>PRICE:11,999</b><sub><strike>12,999</strike></sub></td>
+<td><b>PRICE:99,999</b><sub><strike>1,10,999</strike></sub></td>
+</tr>
+<tr>
+<td><button class="buy-now-btn"><a style="text-decoration: none;color: white;" href="C:/Users/harsh/OneDrive/Desktop/WD MINI INTERNSHIP PROJECT/buynow.html">Buy Now</a></button>
+<button onclick="addToCart()" id="cart-notification" class="add-to-cart-btn">Add to Cart</button></td>
+<td><button class="buy-now-btn"><a style="text-decoration: none;color: white;" href="C:/Users/harsh/OneDrive/Desktop/WD MINI INTERNSHIP PROJECT/buynow.html">Buy Now</a></button>
+<button onclick="addToCart()" id="cart-notification" class="add-to-cart-btn">Add to Cart</button></td>
+<<td><button class="buy-now-btn"><a style="text-decoration: none;color: white;" href="C:/Users/harsh/OneDrive/Desktop/WD MINI INTERNSHIP PROJECT/buynow.html">Buy Now</a></button>
+<button onclick="addToCart()" id="cart-notification" class="add-to-cart-btn">Add to Cart</button></td>
+</tr>

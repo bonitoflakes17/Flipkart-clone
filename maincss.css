@@ -1,0 +1,92 @@
+.menu{
+	max-width:;
+	height:80px;
+	background-color:blue;
+	}
+.menu1{
+	max-width:;
+	height:200px;
+	background-color:white;
+    }
+#img{
+    background-color:white;
+ 	height:150px;
+	width:50%;
+	text-align:center;
+	}
+#logo{font-family:Algerian;
+	text-align:left;
+	font-size:20px;
+	color:white;
+	}
+#myInput {
+   width: 500px; 
+   height:40px;
+}
+#row{text-align:center;
+	width:100%;
+	}
+.scroll-images {
+  white-space: nowrap;
+  height:250px;
+}
+
+.scroll-images img {
+  display: inline-block;
+  height:250px;
+  margin-right: 10px;
+  width:100%;
+}
+.image-border {
+  border: 2px solid black;
+}
+.buy-now-btn,
+.add-to-cart-btn {
+  background-color: #3498db;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.buy-now-btn:hover,
+.add-to-cart-btn:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+#image-container {
+        width: 100%;
+        overflow: hidden;
+      }
+      .image {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        margin-right: 20px;
+        animation-name: scroll;
+        animation-duration: 20s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+      @keyframes scroll {
+        0% {
+          transform: translateX(0);
+		  }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+
+
+
+
+

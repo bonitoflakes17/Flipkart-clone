@@ -1,0 +1,95 @@
+<html>
+<head>
+<style>
+.menu{
+	max-width:;
+	height:80px;
+	background-color:blue;
+	}
+#logo{font-family:Algerian;
+	text-align:center;
+	font-size:40px;
+	color:black;
+	}
+.image-border {
+  border: 2px solid black;}
+  .buy-now-btn,
+.add-to-cart-btn {
+  background-color: #3498db;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+</style>
+<script>
+function addToCart() {
+  const itemName = "Item"; 
+  const cartNotification = document.getElementById("cart-notification");
+  cartNotification.textContent = `${itemName} added to cart!`;
+  cartNotification.style.color = "green";
+  cartNotification.style.display = "block";
+}
+const addButton = document.getElementById("add-to-cart-button");
+addButton.addEventListener("click",addToCart,true);
+</script>
+<title>home</title>
+<body>
+<div class="menu">
+<center><h1 id="logo">HOME</b></h1></center>
+<table width=100%>
+<tr>
+<td><img class="image-border" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\homep5.jpg" width="300px" height="300px"></td>
+<td><img class="image-border" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\homep4.jpg" width="300px" height="300px"></td>
+<td><img class="image-border" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\homep3.jpg" width="300px" height="300px"></td>
+</tr>
+<tr> 
+<td><h3>BEAN BAG </h3></td>
+<td><h3>SOFA</h3></td>
+<td><h3>WARDROB</h3></td>
+</tr>
+<tr>
+<td><b>PRICE:3,999</b><sub><strike>4,999</strike></sub></td>
+<td><b>PRICE:97,999</b><sub><strike>99,999</strike></sub></td>
+<td><b>PRICE:99,999</b><sub><strike>1,99,999</strike></sub></td>
+</tr>
+<tr>
+<td><button class="buy-now-btn"><a style="text-decoration: none;color: white;" href="C:/Users/harsh/OneDrive/Desktop/WD MINI INTERNSHIP PROJECT/buynow.html">Buy Now</a></button>
+<button onclick="addToCart()" id="cart-notification" class="add-to-cart-btn">Add to Cart</button></td>
+<td><button class="buy-now-btn"><a style="text-decoration: none;color: white;" href="C:/Users/harsh/OneDrive/Desktop/WD MINI INTERNSHIP PROJECT/buynow.html">Buy Now</a></button>
+<button onclick="addToCart()" id="cart-notification" class="add-to-cart-btn">Add to Cart</button></td>
+<td><button class="buy-now-btn"><a style="text-decoration: none;color: white;" href="C:/Users/harsh/OneDrive/Desktop/WD MINI INTERNSHIP PROJECT/buynow.html">Buy Now</a></button>
+<button onclick="addToCart()" id="cart-notification" class="add-to-cart-btn">Add to Cart</button></td>
+</tr>
+<tr>
+<td><img class="image-border" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\homep2.jpg" width="300px" height="300px"></td>
+<td><img class="image-border" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\homep1.jpg" width="300px" height="300px"></td>
+<td><img class="image-border" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\homep6.jpg" width="300px" height="300px"></td>
+</tr>
+<tr> 
+<td><h3>SMILE CUP</h3></td>
+<td><h3>WATER BOTTLES</h3></td>
+<td><h3>WOODEN TABLE</h3></td>
+</tr>
+<tr>
+<td><b>PRICE:999</b><sub><strike>1,999</strike></sub></td>
+<td><b>PRICE:499</b><sub><strike>599</strike></sub></td>
+<td><b>PRICE:8,999</b><sub><strike>9,999</strike></sub></td>
+</tr>
+<tr>
+<td><button class="buy-now-btn"><a style="text-decoration: none;color: white;" href="C:/Users/harsh/OneDrive/Desktop/WD MINI INTERNSHIP PROJECT/buynow.html">Buy Now</a></button>
+<button onclick="addToCart()" id="cart-notification" class="add-to-cart-btn">Add to Cart</button></td>
+<td><button class="buy-now-btn"><a style="text-decoration: none;color: white;" href="C:/Users/harsh/OneDrive/Desktop/WD MINI INTERNSHIP PROJECT/buynow.html">Buy Now</a></button>
+<button onclick="addToCart()" id="cart-notification" class="add-to-cart-btn">Add to Cart</button></td>
+<td><button class="buy-now-btn"><a style="text-decoration: none;color: white;" href="C:/Users/harsh/OneDrive/Desktop/WD MINI INTERNSHIP PROJECT/buynow.html">Buy Now</a></button>
+<button onclick="addToCart()" id="cart-notification" class="add-to-cart-btn">Add to Cart</button></td>
+</tr>
+				

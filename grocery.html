@@ -1,0 +1,94 @@
+<html>
+<head>
+<style>
+.menu{
+	max-width:;
+	height:80px;
+	background-color:blue;
+	}
+#logo{font-family:Algerian;
+	text-align:center;
+	font-size:40px;
+	color:black;
+	}
+.image-border {
+  border: 2px solid black;}
+  .buy-now-btn,
+.add-to-cart-btn {
+  background-color: #3498db;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+</style>
+<script>
+function addToCart() {
+  const itemName = "Item"; 
+  const cartNotification = document.getElementById("cart-notification");
+  cartNotification.textContent = `${itemName} added to cart!`;
+  cartNotification.style.color = "green";
+  cartNotification.style.display = "block";
+}
+const addButton = document.getElementById("add-to-cart-button");
+addButton.addEventListener("click",addToCart,true);
+</script>
+<title>grocery</title>
+<body>
+<div class="menu">
+<center><h1 id="logo">GROCERY</b></h1></center>
+<table width=100%>
+<tr>
+<td><img class="image-border" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\groceryp5.jpg" width="300px" height="300px"></td>
+<td><img class="image-border" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\groceryp4.jpg" width="300px" height="300px"></td>
+<td><img class="image-border" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\groceryp3.jpg" width="300px" height="300px"></td>
+</tr>
+<tr> 
+<td><h3>Maggi small pack</h3></td>
+<td><h3>Saffola Oats</h3></td>
+<td><h3>Cadebury dairymilk Oreo</h3></td>
+</tr>
+<tr>
+<td><b>PRICE:9</b><sub><strike>10</strike></sub></td>
+<td><b>PRICE:199</b><sub><strike>299</strike></sub></td>
+<td><b>PRICE:19</b><sub><strike>20</strike></sub></td>
+</tr>
+<tr>
+<td><button class="buy-now-btn"><a style="text-decoration: none;color: white;" href="C:/Users/harsh/OneDrive/Desktop/WD MINI INTERNSHIP PROJECT/buynow.html">Buy Now</a></button>
+<button onclick="addToCart()" id="cart-notification" class="add-to-cart-btn">Add to Cart</button></td>
+<td><button class="buy-now-btn"><a style="text-decoration: none;color: white;" href="C:/Users/harsh/OneDrive/Desktop/WD MINI INTERNSHIP PROJECT/buynow.html">Buy Now</a></button>
+<button onclick="addToCart()" id="cart-notification" class="add-to-cart-btn">Add to Cart</button></td>
+<td><button class="buy-now-btn"><a style="text-decoration: none;color: white;" href="C:/Users/harsh/OneDrive/Desktop/WD MINI INTERNSHIP PROJECT/buynow.html">Buy Now</a></button>
+<button onclick="addToCart()" id="cart-notification" class="add-to-cart-btn">Add to Cart</button></td>
+</tr>
+<tr>
+<td><img class="image-border" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\groceryp2.jpg" width="300px" height="300px"></td>
+<td><img class="image-border" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\groceryp1.jpg" width="300px" height="300px"></td>
+<td><img class="image-border" src="C:\Users\harsh\OneDrive\Desktop\WD MINI INTERNSHIP PROJECT\groceryp6.jpg" width="300px" height="300px"></td>
+</tr>
+<tr> 
+<td><h3>Kelloegg's Corn Flex</h3></td>
+<td><h3>Lays salty chips</h3></td>
+<td><h3>yippee! maggie</h3></td>
+</tr>
+<tr>
+<td><b>PRICE:499</b><sub><strike>799</strike></sub></td>
+<td><b>PRICE:49</b><sub><strike>59</strike></sub></td>
+<td><b>PRICE:9</b><sub><strike>12</strike></sub></td>
+</tr>
+<tr>
+<td><button class="buy-now-btn"><a style="text-decoration: none;color: white;" href="C:/Users/harsh/OneDrive/Desktop/WD MINI INTERNSHIP PROJECT/buynow.html">Buy Now</a></button>
+<button onclick="addToCart()" id="cart-notification" class="add-to-cart-btn">Add to Cart</button></td>
+<td><button class="buy-now-btn"><a style="text-decoration: none;color: white;" href="C:/Users/harsh/OneDrive/Desktop/WD MINI INTERNSHIP PROJECT/buynow.html">Buy Now</a></button>
+<button onclick="addToCart()" id="cart-notification" class="add-to-cart-btn">Add to Cart</button></td>
+<td><button class="buy-now-btn"><a style="text-decoration: none;color: white;" href="C:/Users/harsh/OneDrive/Desktop/WD MINI INTERNSHIP PROJECT/buynow.html">Buy Now</a></button>
+<button onclick="addToCart()" id="cart-notification" class="add-to-cart-btn">Add to Cart</button></td>
+</tr>
